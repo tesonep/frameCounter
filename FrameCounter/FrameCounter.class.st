@@ -30,6 +30,7 @@ FrameCounter class >> defaultInstance [
 { #category : #'as yet unclassified' }
 FrameCounter class >> open [ 
 	
+	self reset.
 	^ self defaultInstance openInWindow.
 ]
 
